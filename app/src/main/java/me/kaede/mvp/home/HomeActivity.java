@@ -103,6 +103,7 @@ public class HomeActivity extends Activity implements AdapterView.OnItemClickLis
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.menu_main, menu);
 		return true;
+
         //git remote add origin https://github.com/liuhengpu/rednow
 	}
 

@@ -8,6 +8,7 @@ import java.util.List;
 public class GetDatasEvent {
 	List<String> datas;
 
+
 	public GetDatasEvent(List<String> datas) {
 		this.datas = datas;
 	}
