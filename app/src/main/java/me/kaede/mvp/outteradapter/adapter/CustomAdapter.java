@@ -94,7 +94,7 @@ public class CustomAdapter extends BaseAdapter {
 		convertView.findViewById(R.id.tv_outter_adapter_delete).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				//removeItem(position);
+				//removeItem(position);gti
 				iAdapterPresenter.deleteData(position);
 				onCustomAdapterClick.doPlay(position);
 
