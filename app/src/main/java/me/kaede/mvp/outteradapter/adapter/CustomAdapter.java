@@ -95,6 +95,7 @@ public class CustomAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 				//removeItem(position);
+                //tinajiawenjain
 				iAdapterPresenter.deleteData(position);
 				onCustomAdapterClick.doPlay(position);
 			}
