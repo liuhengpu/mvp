@@ -8,7 +8,7 @@ import java.util.List;
 public class GetDatasEvent {
 	List<String> datas;
 
-//sehzhi
+//
 	public GetDatasEvent(List<String> datas) {
 		this.datas = datas;
 	}
