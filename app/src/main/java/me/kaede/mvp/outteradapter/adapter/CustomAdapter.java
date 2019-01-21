@@ -98,6 +98,7 @@ public class CustomAdapter extends BaseAdapter {
 				iAdapterPresenter.deleteData(position);
 				onCustomAdapterClick.doPlay(position);
 
+				//test from git
 			}
 		});
 
